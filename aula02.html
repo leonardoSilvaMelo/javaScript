@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        let aspasSimples = 'estamos criando uma String com aspas simples';
+        //String em resumo são texto que podem ser utilizado no JavaScript
+        //e para utiliza-lo podemos usar com aspas simples, duplas, ou sting template.\
+
+        let aspasDuplas = "String com aspas Duplas";
+        //Exemplo de string com aspas Duplas
+
+        let templateLiteral = `String interpolation allows embedding expressions like ${1 + 1}.`;
+        //Essa é uma String Template, basicamente usados em casos onde há a necessidade de realizar uma ação aritimética(como no exemplo) ou quando guardamos alguma variável dentro dela.
+        //O símbolo ${} em JavaScript é usado para interpolar variáveis, ou seja para retornar o valor dela.
+
+        //Veja abaixo exemplo de como e quando usar as crases
+        let nome = 'Leonardo';
+        let idade = 17;
+
+        let messagem = `Olá, meu nome é ${nome} e tenho ${idade} anos`;
+
+        console.log(messagem);
+
+
+
+
+
+        let primeiroNome = 'Jonh';
+        let ultimoNome = 'Doe';
+        let nomeCompleto =  primeiroNome + ' ' + ultimoNome;//Usando o +
+        let nomeCompletoTemplate = `${primeiroNome} ${ultimoNome}`;//Using template literal
+
+        console.log(nomeCompletoTemplate);
+    </script>
+</body>
+</html>
