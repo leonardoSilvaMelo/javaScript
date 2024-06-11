@@ -19,6 +19,30 @@ function chageImage() {
     {
         img.setAttribute("src", "gojo.jpg");
 
-        img.setAttribute("alt", "Imagem Gojo")
+        img.setAttribute("alt", "Imagem Gojo");
+    }   
+}
+
+function chageType(){
+
+    const input = document.getElementsByTagName("input") [0]; //Indice 0, primeiro elemento da lista de Input, que são vários.
+
+    const currentType = input.getAttribute("type");
+
+    switch(currentType){
+        case 'text':
+            input.setAttribute("type", "number");
+            break;
+
+        case "number":
+            input.setAttribute("type", "radio");
+            break;
+
+        case "radio":
+            input.setAttribute("type", "range");
+            break;
+
+        default:
+            input.setAttribute("type", "text");
     }
 }
