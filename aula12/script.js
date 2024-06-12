@@ -9,3 +9,10 @@ function tornarQuadrado(){
     meuElemento.classList.add("square");
     meuElemento.classList.remove("circle");
 }
+
+function altenarFormato(){
+
+    meuElemento.classList.toggle("circle");
+    meuElemento.classList.toggle("square"); //O toggle é como um vigia olhando para a caixa em tempo real
+    
+}
