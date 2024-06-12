@@ -1,0 +1,16 @@
+#meuElemento{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(56, 56, 245);
+}
+
+.square{
+    border-radius: 0%;
+    transition: 0.9s;
+}
+
+.circle{
+    border-radius: 100%;
+    transition: 0.9s;
+}
+
