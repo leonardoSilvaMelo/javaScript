@@ -1,0 +1,20 @@
+
+
+
+/* styles.css */
+.flutuante {
+    width: 200px; /* Largura da div flutuante */
+    height: 100px; /* Altura da div flutuante */
+    background-color: #f0f0f0; /* Cor de fundo da div */
+    border: 1px solid #ccc; /* Borda da div */
+    border-radius: 8px; /* Borda arredondada */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); /* Sombra para efeito 3D */
+    transition: transform 0.3s ease; /* Transição suave para o transform */
+
+    /* Configuração da animação */
+}
+
+/* Definição da animação no hover */
+.flutuante:hover {
+    transform: translateY(-20px); /* Move a div para cima */
+}

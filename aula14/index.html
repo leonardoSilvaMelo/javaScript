@@ -11,11 +11,13 @@
 
 <body>
 
+    <!-- Criamos nosso menu de Navegação -->
     <nav class="navbar">
 
+        
         <div class="logo">Paisagens</div>
 
-
+        <!-- Criamos nossa DIV para guardar os elementos do Header quando estiver em modo Desktop -->
         <ul class="nav-links">
             <li>
                 <a href="">BLOG</a>
@@ -28,12 +30,15 @@
             </li>
         </ul>
 
+        <!-- Criamos nossa DIV para guardar os elementos do Hamburguer quando estiver aberto -->
         <div class="mobile-menu" id="mobileMenu">
 
+            <!-- Botão para ser utilizado para fechamento da lista -->
             <button id="closeButton" class="close">
                 <i class="fas fa-times"></i>
             </button>
 
+            <!-- Essa lista é do Menu Hamburguer quando estiver aberto. -->
             <ul class="nav-links-mobile">
                 <li>
                     <a href="">BLOG</a>
@@ -46,8 +51,10 @@
                 </li>
             </ul>
 
+            <!-- Fim da caixa do Menu Hamburguer (Quando estiver aberto) -->
         </div>
  
+        <!-- Botão de Hamburguer, ele está fora da DIV justamento por ser um elemnto singular -->
       <button class="hamburger" id="hamburgerButton">
           <i class="fas fa-bars"></i>
       </button>
