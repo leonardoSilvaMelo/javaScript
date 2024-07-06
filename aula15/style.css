@@ -1,0 +1,12 @@
+img{
+    width: 200px;
+    height: auto;
+    margin-bottom: 30px;
+    border-radius: 10%;
+}
+
+img:hover{
+    transform: scale(1.1);
+    transition: 0.9s;
+    cursor: pointer;
+}
